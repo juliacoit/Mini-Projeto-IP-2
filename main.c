@@ -8,7 +8,7 @@ int main(int argc, char *argv[]) {
     }
 
     char *nomeArquivo = argv[1];
-    Terreno *sistema[MAX_TERRENOS]; // vetor de ponteiros
+    Terreno *sistema[MAX_TERRENOS]; // espaco para guardr os terrenos
 
     inicializarVetor(sistema);
     carregarDados(sistema, nomeArquivo);
@@ -42,3 +42,4 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
